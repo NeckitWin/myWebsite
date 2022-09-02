@@ -1,0 +1,39 @@
+main{
+    background-color: antiquewhite;
+    border: 5px solid red;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100em;
+}
+
+div{
+    padding: 10px;
+}
+
+.zdchover {
+    transition: 1s;
+   }
+   .zdchover:hover {
+    transform: scale(1.2);
+   }
+
+.dis1,.dis2,.dis3{
+    width: 400px;
+    height: 450px;
+}
+
+.dis1:hover{
+display: none;
+}
+
+.dis2:hover{
+visibility: hidden;
+}
+.dis2:active{
+    visibility: hidden;
+    }
+
+.dis3:hover{
+display: block;
+}

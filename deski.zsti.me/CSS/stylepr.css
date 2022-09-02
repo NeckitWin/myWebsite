@@ -1,0 +1,228 @@
+aside{
+    color: #ff0000;
+}
+
+h1{
+    margin: auto;
+}
+
+table{
+    border: 1px double black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+th, td{
+    border: 1px solid black;
+}
+
+
+
+#banner {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* menu */
+#menu {
+margin: 0;
+padding: 4px;
+}/* tablica */
+
+.link {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 5%;
+}/*linki*/
+
+#backmenu {
+background-color: antiquewhite;
+border: 5px solid #b00000;
+max-width: 1000px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+border-radius: 20px;
+}/*tyl tablicy*/
+
+.ll {
+display: inline;
+margin-right: 5px;
+padding: 3px;
+margin: auto;
+}/* elementy tablicy */
+/* menu */
+
+main{
+    background-color: antiquewhite;
+    border: 5px solid red;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100em;
+}
+.link:hover{
+    background-color: #00ffff;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+.lista{
+    margin-left: 25%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ll1{
+    margin-left: 50%;
+}
+.przyklad{
+    color: #FF00F0;
+}
+h1{
+    text-align: center;
+}
+.przyklad p{
+    margin-left: 5%;
+}
+
+p > a{
+    color: #00FF00;
+    margin-left: 10px;
+}
+
+/* div ~ p{
+    color:#ff00ff;
+} */
+/* tylda (~) zamienia wszystkich bratów */
+/* 
+FONT-FAMILY: rodzina czcionki
+FONT-STYLE: styl czcionki
+
+*/
+/* font-family: Helvetica,'Trebuchet MS', Verdana,sans-serif*/
+
+/* #123{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    font-style: normal;
+    normal=zwykle, italic=pochyliona, oblique=pochyliona zwykla
+     font-weight: bolder;
+    text-align: left;
+    left,center, right, justify 
+    text-indent: 20px;
+    akapit
+    line-height: 5px;
+    odstęp między wierszami
+} */
+
+#jas > .zagljas{
+    background-color: #00FF00;
+    color: #FFFFFF;
+    text-align: center;
+    width: 800px;
+    height: 40px;
+    margin-top: 0px;
+}
+
+#jas{
+    background-color: #FFFFFF;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;  
+    margin-bottom: 30px;
+}
+
+#jas > p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-size: 16px;
+}
+
+.jas{
+    margin-left: 100px;
+    width: 200px;
+}
+
+.pjas{
+    display: inline-block;
+    margin-left: 10px;
+}
+#podfoto{
+    margin-left: auto;
+}
+
+#jasul{
+    list-style: none;
+    margin-left: 59px;
+}
+
+.container{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    position: relative;
+}
+
+.box{
+    background-color: #b00000;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 90px;
+    color: #FFFFFF;
+}
+
+.other{
+    background-color: #ff0000;
+    position: relative;
+    top:0px;
+}
+
+
+/* funkcji position: */
+/*w relative można używać wartości ujemne.*/ 
+
+/* absolute uzupelnia puste miejsce między obiektami, a relative nie. */
+
+/* fixed przykleja(menu/reklama) */
+
+/*sticky tryma się z góry, dopóki go rodzic jest w oknie.*/
+
+
+#cont1{
+    width: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    position: relative;
+}
+
+.xob{
+    background-color: darkred;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+
+#xobp{
+    position: relative;
+    right: 40px;
+}
+
+#ulprz{
+    list-style: none;
+}
+
+.przli{
+    display: relative;
+    right: 20px;
+    bottom: 20px;
+}

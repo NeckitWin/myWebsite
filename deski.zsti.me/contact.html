@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Mykyta Vinohradov"/>
+    <link href="CSS/menu.css" rel="stylesheet" type="text/css">
+    <link href="CSS/contact.css" rel="stylesheet" type="text/css">
+    <title>deski</title>
+</head>
+<body>
+    <header>
+        <style>
+            body {
+                background-image: url(./img/backdesk.jpg);
+            }
+        </style>
+                <img src = "img/deskahead.jpg" alt = "deska" id = "banner">
+            <nav id = "backmenu">
+                <ul id = "menu">
+                    <li class = "ll s1"><a class = "link" href="index.html">Główna strona</a></li>
+                    <li class = "ll s2"><a class = "link" href="contact.html">Kontakt</a></li>
+                    <li class = "ll s3"><a class = "link" href="galeria.html">Galeria</a></li>
+                    <li class = "ll s4"><a class = "link" href="pracy_klasowe.html">Pracy klasowe</a></li>
+                    <li class = "ll s6"><a class = "link" href="strony_znajomych.html">Strony internytowe</a></li>
+                </ul>
+            </nav>
+            <main>
+                <form action="form.html" method="post">
+                    <fieldset>
+                        <legend>Uzupelnij formularz</legend>
+                            <label>Imię: <input type="text"></label><br><br>
+                            <label>Nazwiśko: <input type="text"></label><br><br>
+                            <label>Data urodzenia: <input type="date"></label><br><br>
+                            <label>Poczta: <input type="email"></label><br><br>
+                            <label>Hasło: <input type="password"></label><br><br>
+                            <label>Pocztowy index:<input type="number" pattern="[0-9](2)-[0-9]{3}"></label><br><br>
+                            <label>Domowy adress: <input type="text"></label><br><br>
+
+        
+                    </fieldset>
+
+                
+
+                <fieldset>
+                    <legend>zainteresowania</legend>
+                    <label>napisz o swoich zaiteresowaniach<textarea rows="10" cols="30"></textarea></label>
+                    <label>Wyslij plik <input type="file" multiple/></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>WYBORY</legend>
+                    <p><input type="radio">Matematyka</p>
+                    <p><input type="radio">Polski</p>
+                    <p><input type="radio">Projektowanie</p>
+                    <p><input type="radio">Aplikacje</p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Zgody</legend>
+                    <label><input type="checkbox" required="required" >Zgoda na przetwarzanie danych</label><br>
+                    <label><input type="checkbox" required="required">Zgoda na przetwarzanie newslettera</label><br>
+                    <label><input type="checkbox" required="required">Zapoznałem się z polityką bezpieczeństwa</label><br>
+                </fieldset>
+
+                <input type="submit"> <input type="reset">
+                </form>
+            </main>
+    </header>
+</html>
